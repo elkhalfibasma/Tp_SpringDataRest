@@ -27,21 +27,21 @@ public class SpringDataBasicApplication implements CommandLineRunner {
         Etudiant et1 = Etudiant.builder()
                 .nom("elkhalfi")
                 .prenom("basma")
-                .genre(Genre.Homme)
+                .genre(Genre.Femme)
                 .build();
         etudiantRepository.save(et1);
 
         Etudiant et2 = Etudiant.builder()
                 .nom("alami")
                 .prenom("lina")
-                .genre(Genre.Homme)
+                .genre(Genre.Femme)
                 .build();
         etudiantRepository.save(et2);
 
         Etudiant et3 = Etudiant.builder()
                 .nom("ijeoui")
                 .prenom("hanane")
-                .genre(Genre.Homme)
+                .genre(Genre.Femme)
                 .build();
         etudiantRepository.save(et3);
 
